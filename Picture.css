@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(159, 225, 216);
+}
+
+#body2 {
+
+    background-color: rgb(185, 161, 141);
+}
+
+.WELCOME_TO_ART {
+    color: rgb(61, 21, 21);
+    background-color: rgb(214, 214, 56);
+    padding: 10px;
+    font-size: max-content;
+    height: 130px;
+    margin-left: -3%;
+}
+
+.EXPERIENCE_ART {
+    color: black;
+    background-color: rgb(94, 76, 16);
+    padding: 10px;
+    width: 13%;
+    font-size: 5mm;
+    height: 10cm;
+    position: absolute;
+    z-index: 1;
+    margin-right: 460px;
+}
+
+.ENJOY_ART {
+    /* color: rgb(84, 84, 227); */
+    background-color: rgb(121, 4, 56);
+    /* background-color: aliceblue; */
+    /* padding: 10px; */
+    margin-left: -170px;
+    margin-top: 0%;
+    ;
+    font-size: 19px;
+    height: 14cm;
+    z-index: 2;
+    position: absolute;
+}
+
+.SUPER {
+    color: black;
+    background-color: rgb(172, 170, 94);
+    padding: 23px;
+    font-size: 100%;
+    height: max-content;
+    margin-top: 50px;
+    /* right: 250px; */
+    /* margin-right: 30%; */
+    margin-right: 401px;
+    z-index: 3;
+    position: relative;
+}
+
+
+
+
+#form:hover {
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    align-content: center;
+}
+
+#TITTLE {
+    margin-top: 0%;
+    margin-left: 42.9%;
+    z-index: 4;
+    position: absolute;
+    font-size: 220%;
+}
+
+@media (max-width:1050px) {
+    .ENJOY_ART {
+        background-color: aqua;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .SUPER {
+        background-color: aqua;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media (media-width: 320px) {
+    .EXPERIENCE_ART {
+        background-color: aqua;
+        flex-direction: column;
+        align-content: center;
+    }
+}
